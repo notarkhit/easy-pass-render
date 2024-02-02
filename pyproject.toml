@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "easy-pass-render"
+version = "0.1.0"
+description = ""
+authors = ["Aryan Arkhit Behra <93533363+notarkhit@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "4.2.9"
+gunicorn = "20.0.4"
+whitenoise = "6.6.0"
+mccabe = "0.6.1"
+pyflakes = "2.0.0"
+pycodestyle = "2.4.0"
+pyjwt = "1.7.1"
+dj-database-url = "2.1.0"
+psycopg2 = "^2.9.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
